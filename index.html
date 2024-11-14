@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <p class="store-name">African Club Store</p>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search for products...">
+                <button id="search-btn">Search</button>
+            </div>
+        </nav>
+    </header>
+
+   
+    <div class="product-list">
+        <div class="product" data-name="Laptop">
+            <img src="https://clubafricain.com/_next/image?url=https%3A%2F%2Fstorage-tn-1.superverse.tech%2Fscalemerce-stagging%2F151-1731499937898.jpg&w=1080&q=50" alt="Laptop">
+            <h3>T-shirt</h3>
+            <p>$80</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Phone">
+            <img src="https://clubafricain.com/_next/image?url=https%3A%2F%2Fstorage-tn-1.superverse.tech%2Fscalemerce-stagging%2FWhatsApp%20Image%202024-08-30%20at%2019.16.43-1728039206735.jpeg&w=1080&q=50" alt="Phone">
+            <h3>T-shirt</h3>
+            <p>$80</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Headphones">
+            <img src="https://clubafricain.com/_next/image?url=https%3A%2F%2Fstorage-tn-1.superverse.tech%2Fscalemerce-stagging%2F146-1731497016525.jpg&w=1080&q=50" alt="Headphones">
+            <h3>Jogging</h3>
+            <p>$100</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Smartwatch">
+            <img src="https://clubafricain.com/_next/image?url=https%3A%2F%2Fstorage-tn-1.superverse.tech%2Fscalemerce-stagging%2F138-1731499551441.jpg&w=1080&q=50" alt="Smartwatch">
+            <h3>Jogging</h3>
+            <p>$100</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Keyboard">
+            <img src="https://clubafricain.com/_next/image?url=https%3A%2F%2Fstorage-tn-1.superverse.tech%2Fscalemerce-stagging%2F124-1729279713861.jpg&w=1080&q=50" alt="Keyboard">
+            <h3>Casquette</h3>
+            <p>$20</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Mouse">
+            <img src="https://clubafricain.com/_next/image?url=https%3A%2F%2Fstorage-tn-1.superverse.tech%2Fscalemerce-stagging%2F79-1729284737484.jpg&w=1080&q=50" alt="Mouse">
+            <h3>Casquette</h3>
+            <p>$20</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="cart">
+        <h3>Your Cart</h3>
+        <ul id="cart-items">
+        </ul>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <footer>
+        <p>Club Africain</p>
+        <img src="https://clubafricain.com/icons/logo-club-africain.svg" alt="Club Africain Logo" class="footer-logo">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
